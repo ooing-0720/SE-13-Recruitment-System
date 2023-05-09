@@ -65,7 +65,7 @@
 											"font": "Arial;13;0",
 											"left": 64.72998046875,
 											"top": 37,
-											"width": 258.1181640625,
+											"width": 228.2830810546875,
 											"height": 13,
 											"text": "일반 회원 채용 정보 조회, 상세 조회 및 지원 "
 										},
@@ -4883,9 +4883,9 @@
 												"$ref": "AAAAAAGH9yhuglQNNKY="
 											},
 											"font": "Arial;13;0",
-											"left": 32.45703125,
+											"left": 32.72998046875,
 											"top": 69,
-											"width": 149.28125,
+											"width": 127.897216796875,
 											"height": 13,
 											"text": "회사 회원 채용 마감 처리"
 										},
@@ -4898,7 +4898,7 @@
 											"font": "Arial;13;1",
 											"left": 13,
 											"top": 69,
-											"width": 14.45703125,
+											"width": 14.72998046875,
 											"height": 13,
 											"text": "sd"
 										}
@@ -7286,9 +7286,9 @@
 												"$ref": "AAAAAAGH901DdPD06T4="
 											},
 											"font": "Arial;13;0",
-											"left": 112.45703125,
+											"left": 112.72998046875,
 											"top": 101,
-											"width": 149.28125,
+											"width": 127.897216796875,
 											"height": 13,
 											"text": "회사 회원 마감 내역 조회"
 										},
@@ -7301,7 +7301,7 @@
 											"font": "Arial;13;1",
 											"left": 93,
 											"top": 101,
-											"width": 14.45703125,
+											"width": 14.72998046875,
 											"height": 13,
 											"text": "sd"
 										}
@@ -9690,9 +9690,9 @@
 												"$ref": "AAAAAAGH912i3VX+CZU="
 											},
 											"font": "Arial;13;0",
-											"left": 104.45703125,
+											"left": 104.72998046875,
 											"top": 69,
-											"width": 118.7109375,
+											"width": 101.79541015625,
 											"height": 13,
 											"text": "등록 채용 정보 통계"
 										},
@@ -9705,7 +9705,7 @@
 											"font": "Arial;13;1",
 											"left": 85,
 											"top": 69,
-											"width": 14.45703125,
+											"width": 14.72998046875,
 											"height": 13,
 											"text": "sd"
 										}
@@ -13863,7 +13863,7 @@
 									"containerExtending": true,
 									"left": 212,
 									"top": 112,
-									"width": 84.68359375,
+									"width": 85.02394104003906,
 									"height": 38,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGH+53/3qO1hdY="
@@ -14573,7 +14573,7 @@
 									"containerExtending": true,
 									"left": 184,
 									"top": 308,
-									"width": 81,
+									"width": 85.02394104003906,
 									"height": 36,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGH+53/36PZXNk="
@@ -14760,7 +14760,7 @@
 									"containerExtending": true,
 									"left": 252,
 									"top": 352,
-									"width": 81,
+									"width": 85.02394104003906,
 									"height": 36,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGH+53/36Pja6s="
@@ -14947,7 +14947,7 @@
 									"containerExtending": true,
 									"left": 316,
 									"top": 400,
-									"width": 81,
+									"width": 85.02394104003906,
 									"height": 36,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGH+53/36PtTyg="
@@ -15134,7 +15134,7 @@
 									"containerExtending": true,
 									"left": 380,
 									"top": 448,
-									"width": 81,
+									"width": 85.02394104003906,
 									"height": 36,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGH+53/36P3JZI="
@@ -15319,7 +15319,7 @@
 									"containerExtending": true,
 									"left": 440,
 									"top": 496,
-									"width": 81,
+									"width": 85.02394104003906,
 									"height": 36,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGH+53/36QB2RY="
@@ -16686,7 +16686,7 @@
 									"containerExtending": true,
 									"left": 236,
 									"top": 584,
-									"width": 81,
+									"width": 85.02394104003906,
 									"height": 36,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGH+53/4KQ9qLo="
@@ -16970,7 +16970,7 @@
 									"containerExtending": true,
 									"left": 720,
 									"top": 204,
-									"width": 81,
+									"width": 85.02394104003906,
 									"height": 36,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGH+53/4KRLzEQ="
@@ -17157,7 +17157,7 @@
 									"containerExtending": true,
 									"left": 720,
 									"top": 256,
-									"width": 81,
+									"width": 85.02394104003906,
 									"height": 36,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGH+53/4KRVL34="
@@ -17344,7 +17344,7 @@
 									"containerExtending": true,
 									"left": 720,
 									"top": 308,
-									"width": 81,
+									"width": 85.02394104003906,
 									"height": 36,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGH+53/4KRfBv4="
@@ -17718,7 +17718,7 @@
 									"containerExtending": true,
 									"left": 720,
 									"top": 416,
-									"width": 81,
+									"width": 85.02394104003906,
 									"height": 36,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGH+53/4KRzV04="
@@ -17905,7 +17905,7 @@
 									"containerExtending": true,
 									"left": 720,
 									"top": 472,
-									"width": 81,
+									"width": 85.02394104003906,
 									"height": 36,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGH+53/4aR9qEs="
@@ -18663,7 +18663,7 @@
 									"containerExtending": true,
 									"left": 556,
 									"top": 540,
-									"width": 103.099609375,
+									"width": 102.6484375,
 									"height": 36,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGH+53/4aSem9k="
@@ -18784,7 +18784,7 @@
 									"containerExtending": true,
 									"left": 720,
 									"top": 544,
-									"width": 81,
+									"width": 85.02394104003906,
 									"height": 36,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGH+53/4aSl4Ds="
@@ -18970,7 +18970,7 @@
 									"containerExtending": true,
 									"left": 720,
 									"top": 592,
-									"width": 100.955078125,
+									"width": 98.67578125,
 									"height": 36,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGH+53/4aSvhG8="
@@ -19157,7 +19157,7 @@
 									"containerExtending": true,
 									"left": 720,
 									"top": 648,
-									"width": 81,
+									"width": 85.02394104003906,
 									"height": 36,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGH+53/4aS5LE8="
@@ -19344,7 +19344,7 @@
 									"containerExtending": true,
 									"left": 720,
 									"top": 704,
-									"width": 81,
+									"width": 85.02394104003906,
 									"height": 36,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGH+53/4aTD7ko="
@@ -19529,7 +19529,7 @@
 									"containerExtending": true,
 									"left": 720,
 									"top": 760,
-									"width": 81,
+									"width": 85.02394104003906,
 									"height": 36,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGH+53/4aTNMt4="
@@ -20312,7 +20312,7 @@
 									"containerExtending": true,
 									"left": 236,
 									"top": 644,
-									"width": 79.380859375,
+									"width": 85.02394104003906,
 									"height": 36,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGH+53/4qTxFzE="
@@ -20500,7 +20500,7 @@
 									"containerExtending": true,
 									"left": 236,
 									"top": 708,
-									"width": 79.380859375,
+									"width": 85.02394104003906,
 									"height": 36,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGH+53/4qT7Od0="
@@ -20688,7 +20688,7 @@
 									"containerExtending": true,
 									"left": 236,
 									"top": 764,
-									"width": 79.380859375,
+									"width": 85.02394104003906,
 									"height": 36,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGH+53/4qUFh2E="
@@ -21064,7 +21064,7 @@
 									"containerExtending": true,
 									"left": 236,
 									"top": 876,
-									"width": 79.380859375,
+									"width": 85.02394104003906,
 									"height": 36,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGH+53/4qUZykg="
@@ -21992,7 +21992,7 @@
 									"containerExtending": true,
 									"left": 740,
 									"top": 60,
-									"width": 126.00390625,
+									"width": 120.396484375,
 									"height": 22
 								},
 								{
@@ -22149,7 +22149,7 @@
 									"containerExtending": true,
 									"left": 740,
 									"top": 96,
-									"width": 79.380859375,
+									"width": 85.02394104003906,
 									"height": 36,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGH+53/46VMMJA="
@@ -22337,7 +22337,7 @@
 									"containerExtending": true,
 									"left": 740,
 									"top": 148,
-									"width": 79.380859375,
+									"width": 85.02394104003906,
 									"height": 36,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGH+53/46VWcrM="
@@ -22922,7 +22922,7 @@
 									"containerExtending": true,
 									"left": 724,
 									"top": 832,
-									"width": 81,
+									"width": 85.02394104003906,
 									"height": 36,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGH+53/46Vye5M="
@@ -23105,7 +23105,7 @@
 									"containerExtending": true,
 									"left": 724,
 									"top": 888,
-									"width": 86.271484375,
+									"width": 85.345703125,
 									"height": 36,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGH+53/46V8UoU="
@@ -24107,7 +24107,7 @@
 									"containerExtending": true,
 									"left": 212,
 									"top": 84,
-									"width": 81,
+									"width": 85.02394104003906,
 									"height": 36,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGH+53/5KXIXh0="
@@ -24505,7 +24505,7 @@
 									"containerExtending": true,
 									"left": 212,
 									"top": 32,
-									"width": 81,
+									"width": 85.02394104003906,
 									"height": 36,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGH+53/5aXcs5A="
@@ -24789,7 +24789,7 @@
 									"containerExtending": true,
 									"left": 212,
 									"top": 136,
-									"width": 81,
+									"width": 85.02394104003906,
 									"height": 36,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGH+53/5aXqXSI="
