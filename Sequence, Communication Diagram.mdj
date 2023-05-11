@@ -4579,7 +4579,7 @@
 											],
 											"font": "Arial;13;0",
 											"width": 777,
-											"height": 649,
+											"height": 441,
 											"nameLabel": {
 												"$ref": "AAAAAAGH/5i2fWDQblk="
 											},
@@ -4688,14 +4688,14 @@
 													"left": 87,
 													"top": 105,
 													"width": 1,
-													"height": 528
+													"height": 336
 												}
 											],
 											"font": "Arial;13;0",
 											"left": 40,
 											"top": 40,
 											"width": 93.167236328125,
-											"height": 593,
+											"height": 401,
 											"stereotypeDisplay": "icon",
 											"nameCompartment": {
 												"$ref": "AAAAAAGH/5i2fWDTrsg="
@@ -4805,14 +4805,14 @@
 													"left": 298,
 													"top": 80,
 													"width": 1,
-													"height": 561
+													"height": 361
 												}
 											],
 											"font": "Arial;13;0",
 											"left": 248,
 											"top": 40,
 											"width": 100.89453125,
-											"height": 601,
+											"height": 401,
 											"nameCompartment": {
 												"$ref": "AAAAAAGH/5i2fWDaUG8="
 											},
@@ -4921,14 +4921,14 @@
 													"left": 493,
 													"top": 80,
 													"width": 1,
-													"height": 561
+													"height": 361
 												}
 											],
 											"font": "Arial;13;0",
 											"left": 456,
 											"top": 40,
 											"width": 74.87548828125,
-											"height": 601,
+											"height": 401,
 											"nameCompartment": {
 												"$ref": "AAAAAAGH/5i2fWDhDRA="
 											},
@@ -5476,7 +5476,8 @@
 								"$ref": "AAAAAAGH/5i2fWFwnXA="
 							},
 							"name": "address",
-							"visibility": "private"
+							"visibility": "private",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -5485,7 +5486,8 @@
 								"$ref": "AAAAAAGH/5i2fWFwnXA="
 							},
 							"name": "phoneNum",
-							"visibility": "private"
+							"visibility": "private",
+							"type": ""
 						}
 					],
 					"operations": [
@@ -10499,14 +10501,14 @@
 													"left": 578,
 													"top": 80,
 													"width": 1,
-													"height": 457
+													"height": 377
 												}
 											],
 											"font": "Arial;13;0",
 											"left": 528,
 											"top": 40,
 											"width": 100.17724609375,
-											"height": 497,
+											"height": 417,
 											"nameCompartment": {
 												"$ref": "AAAAAAGH/5koJGqPoKs="
 											},
@@ -33373,7 +33375,8 @@
 								"$ref": "AAAAAAGH/7hZx9mNqp8="
 							},
 							"name": "companyName",
-							"visibility": "private"
+							"visibility": "private",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -33382,7 +33385,8 @@
 								"$ref": "AAAAAAGH/7hZx9mNqp8="
 							},
 							"name": "businessNum",
-							"visibility": "private"
+							"visibility": "private",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -33391,7 +33395,8 @@
 								"$ref": "AAAAAAGH/7hZx9mNqp8="
 							},
 							"name": "businessArea",
-							"visibility": "private"
+							"visibility": "private",
+							"type": ""
 						}
 					]
 				},
@@ -33425,7 +33430,8 @@
 								"$ref": "AAAAAAGH/7hoYtpqmbo="
 							},
 							"name": "name",
-							"visibility": "private"
+							"visibility": "private",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -33434,7 +33440,8 @@
 								"$ref": "AAAAAAGH/7hoYtpqmbo="
 							},
 							"name": "rid",
-							"visibility": "private"
+							"visibility": "private",
+							"type": ""
 						}
 					]
 				}
