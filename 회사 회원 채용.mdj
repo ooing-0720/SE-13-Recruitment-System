@@ -52,9 +52,9 @@
 														"$ref": "AAAAAAGH9iPuZNxQgqg="
 													},
 													"font": "Arial;13;0",
-													"left": 40.72998046875,
+													"left": 40.45703125,
 													"top": 21,
-													"width": 145.447265625,
+													"width": 149.28125,
 													"height": 13,
 													"text": "회사 회원 채용 정보 등록"
 												},
@@ -67,7 +67,7 @@
 													"font": "Arial;13;1",
 													"left": 21,
 													"top": 21,
-													"width": 14.72998046875,
+													"width": 14.45703125,
 													"height": 13,
 													"text": "sd"
 												}
@@ -1490,9 +1490,9 @@
 														"$ref": "AAAAAAGH9kXmRd8Slow="
 													},
 													"font": "Arial;13;0",
-													"left": 40.72998046875,
+													"left": 40.45703125,
 													"top": 5,
-													"width": 145.447265625,
+													"width": 149.28125,
 													"height": 13,
 													"text": "회사 회원 채용 정보 수정"
 												},
@@ -1505,7 +1505,7 @@
 													"font": "Arial;13;1",
 													"left": 21,
 													"top": 5,
-													"width": 14.72998046875,
+													"width": 14.45703125,
 													"height": 13,
 													"text": "sd"
 												}
@@ -1654,9 +1654,9 @@
 														"$ref": "AAAAAAGH9kye/N9O7UA="
 													},
 													"font": "Arial;13;0",
-													"left": 407.9599609375,
+													"left": 407.4140625,
 													"top": 93,
-													"width": 25.578125,
+													"width": 27.583984375,
 													"height": 13,
 													"text": "loop"
 												},
@@ -1669,7 +1669,7 @@
 													"font": "Arial;13;1",
 													"left": 381,
 													"top": 93,
-													"width": 21.9599609375,
+													"width": 21.4140625,
 													"height": 13,
 													"text": "seq"
 												},
@@ -1702,7 +1702,7 @@
 																	"font": "Arial;13;0",
 																	"left": 396,
 																	"top": 126,
-																	"width": 118.47265625,
+																	"width": 122.41455078125,
 																	"height": 13,
 																	"text": "[For all recruitments]"
 																}
@@ -3285,9 +3285,9 @@
 														"$ref": "AAAAAAGH9l4lvuTlhkU="
 													},
 													"font": "Arial;13;0",
-													"left": 40.72998046875,
+													"left": 40.45703125,
 													"top": 5,
-													"width": 145.447265625,
+													"width": 149.28125,
 													"height": 13,
 													"text": "회사 회원 채용 정보 조회"
 												},
@@ -3300,7 +3300,7 @@
 													"font": "Arial;13;1",
 													"left": 21,
 													"top": 5,
-													"width": 14.72998046875,
+													"width": 14.45703125,
 													"height": 13,
 													"text": "sd"
 												}
@@ -3449,9 +3449,9 @@
 														"$ref": "AAAAAAGH9l4lvuTvtFI="
 													},
 													"font": "Arial;13;0",
-													"left": 407.9599609375,
+													"left": 407.4140625,
 													"top": 93,
-													"width": 25.578125,
+													"width": 27.583984375,
 													"height": 13,
 													"text": "loop"
 												},
@@ -3464,7 +3464,7 @@
 													"font": "Arial;13;1",
 													"left": 381,
 													"top": 93,
-													"width": 21.9599609375,
+													"width": 21.4140625,
 													"height": 13,
 													"text": "seq"
 												},
@@ -3497,7 +3497,7 @@
 																	"font": "Arial;13;0",
 																	"left": 396,
 																	"top": 126,
-																	"width": 118.47265625,
+																	"width": 122.41455078125,
 																	"height": 13,
 																	"text": "[For all recruitments]"
 																}
@@ -4649,9 +4649,9 @@
 														"$ref": "AAAAAAGH9mKpC+jl33g="
 													},
 													"font": "Arial;13;0",
-													"left": 40.72998046875,
+													"left": 40.45703125,
 													"top": 5,
-													"width": 145.447265625,
+													"width": 149.28125,
 													"height": 13,
 													"text": "회사 회원 채용 정보 삭제"
 												},
@@ -4664,7 +4664,7 @@
 													"font": "Arial;13;1",
 													"left": 21,
 													"top": 5,
-													"width": 14.72998046875,
+													"width": 14.45703125,
 													"height": 13,
 													"text": "sd"
 												}
@@ -4813,9 +4813,9 @@
 														"$ref": "AAAAAAGH9mKpC+jv0ZI="
 													},
 													"font": "Arial;13;0",
-													"left": 407.9599609375,
+													"left": 407.4140625,
 													"top": 93,
-													"width": 25.578125,
+													"width": 27.583984375,
 													"height": 13,
 													"text": "loop"
 												},
@@ -4828,7 +4828,7 @@
 													"font": "Arial;13;1",
 													"left": 381,
 													"top": 93,
-													"width": 21.9599609375,
+													"width": 21.4140625,
 													"height": 13,
 													"text": "seq"
 												},
@@ -4861,7 +4861,7 @@
 																	"font": "Arial;13;0",
 																	"left": 396,
 																	"top": 126,
-																	"width": 118.47265625,
+																	"width": 122.41455078125,
 																	"height": 13,
 																	"text": "[For all recruitments]"
 																}
@@ -6412,9 +6412,9 @@
 														"$ref": "AAAAAAGH9pdmwbO97jE="
 													},
 													"font": "Arial;13;0",
-													"left": 40.72998046875,
+													"left": 40.45703125,
 													"top": 5,
-													"width": 145.447265625,
+													"width": 149.28125,
 													"height": 13,
 													"text": "회사 회원 채용 마감 처리"
 												},
@@ -6427,7 +6427,7 @@
 													"font": "Arial;13;1",
 													"left": 21,
 													"top": 5,
-													"width": 14.72998046875,
+													"width": 14.45703125,
 													"height": 13,
 													"text": "sd"
 												}
@@ -6576,9 +6576,9 @@
 														"$ref": "AAAAAAGH9pdmwbPHCAA="
 													},
 													"font": "Arial;13;0",
-													"left": 407.9599609375,
+													"left": 407.4140625,
 													"top": 93,
-													"width": 25.578125,
+													"width": 27.583984375,
 													"height": 13,
 													"text": "loop"
 												},
@@ -6591,7 +6591,7 @@
 													"font": "Arial;13;1",
 													"left": 381,
 													"top": 93,
-													"width": 21.9599609375,
+													"width": 21.4140625,
 													"height": 13,
 													"text": "seq"
 												},
@@ -6624,7 +6624,7 @@
 																	"font": "Arial;13;0",
 																	"left": 396,
 																	"top": 126,
-																	"width": 118.47265625,
+																	"width": 122.41455078125,
 																	"height": 13,
 																	"text": "[For all recruitments]"
 																}
@@ -8565,7 +8565,7 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"width": 80.9072265625,
+											"width": 85.0966796875,
 											"height": 13,
 											"text": "(from Model1)"
 										},
