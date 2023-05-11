@@ -1,0 +1,34 @@
+[ooing] Thu May 11 23:41:59 2023 +0900 최종 3f58e05
+[ooing] Thu May 11 23:19:15 2023 +0900 diagram 최종 fae32ef
+[권재현] Thu May 11 23:02:27 2023 +0900 보고서 일부 수정 4a390be
+[taehoon] Thu May 11 00:46:28 2023 +0900 attribute 추가 fca3448
+[brian] Thu May 11 00:17:14 2023 +0900 Add: 소공 팀플 최종 수정(김현민) 5bb469c
+[taehoon] Thu May 11 00:02:25 2023 +0900 럍:classDiagram 관계수정 403120e
+[taehoon] Tue May 9 17:59:22 2023 +0900 add:classDiagram 36501c2
+[baebaebuae] Tue May 9 17:08:16 2023 +0900 Merge branch 'main' of https://github.com/ooing-0720/SE-13-Recruitment-System d555178
+[baebaebuae] Tue May 9 17:07:55 2023 +0900 지원 정보 관리_권재현 최종 736cb60
+[ooing] Tue May 9 17:00:25 2023 +0900 Merge branch 'main' of https://github.com/ooing-0720/SE-13-Recruitment-System 4d2ee36
+[ooing] Tue May 9 17:00:02 2023 +0900 회사 회원 채용 sequence diagram 수정 e19fd0a
+[Jaehyeon Kwon] Tue May 9 16:56:30 2023 +0900 Delete 회사 회원 채용_박소정.mdj 1caeb91
+[baebaebuae] Tue May 9 16:53:22 2023 +0900 지원 정보 관리_권재현 e4461f8
+[baebaebuae] Tue May 9 16:34:39 2023 +0900 유즈케이스 다이어그램 최종 bb14d90
+[taehoon] Tue May 9 01:48:10 2023 +0900 fix:회원관리 usecase수정 15af9f5
+[taehoon] Tue May 9 01:45:42 2023 +0900 fix:회원관리파일 이름변경 79c25f6
+[taehoon] Tue May 9 01:43:03 2023 +0900 add:회원관리시스템 diagram d62d259
+[taehoon] Tue May 9 01:41:41 2023 +0900 add:회원관리시스템 requirementList 488d55a
+[brian] Tue May 9 00:19:33 2023 +0900 Fixed:Usecase diagram 20cdb8f
+[brian] Mon May 8 23:48:03 2023 +0900 Add:diagram done(김현민) b632518
+[ooing] Mon May 8 21:23:18 2023 +0900 class diagram 회사 회원 채용 2647700
+[권재현] Mon May 8 04:51:38 2023 +0900 class diagram 추가 72d0a55
+[Jaehyeon Kwon] Mon May 8 04:11:07 2023 +0900 Delete ~$정보 관리 시스템 requirement list.docx 5aa47f0
+[Jaehyeon Kwon] Mon May 8 04:09:02 2023 +0900 Delete ~$_김현민_박소정_권재현_이태훈_보고서.docx 3148333
+[권재현] Mon May 8 04:06:15 2023 +0900 권재현 지원정보관리 업로드 403c05a
+[권재현] Mon May 8 01:16:32 2023 +0900 Merge branch 'main' of https://github.com/ooing-0720/SE-13-Recruitment-System de0c307
+[권재현] Mon May 8 01:15:45 2023 +0900 지원정보 requirement list, use case description 수정 02b1196
+[ooing] Mon May 8 01:12:45 2023 +0900 Merge branch 'main' of https://github.com/ooing-0720/SE-13-Recruitment-System 8cb1df2
+[ooing] Mon May 8 01:12:13 2023 +0900 보고서 요구사항 수정 반영, sequential diagram 회사 회원 채용 f1145e8
+[권재현] Mon May 8 01:11:49 2023 +0900 지원정보 requirement list, use case description 수정 c9865de
+[Jaehyeon Kwon] Sun May 7 19:22:24 2023 +0900 지원정보 관리 시스템 requirement list 9b1cd91
+[ooing] Sun May 7 17:42:56 2023 +0900 보고서 서식 추가 db16ca7
+[Jaehyeon Kwon] Sun May 7 16:26:38 2023 +0900 use case diagram 지원정보 수정 2c13645
+[ooing] Sun May 7 14:50:21 2023 +0900 first commit b992e28
