@@ -4,7 +4,6 @@
 #include <string>
 #include "Recruitment.h"
 
-using namespace std;
 
 class ManageRecruitment {
 public:

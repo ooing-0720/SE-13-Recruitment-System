@@ -1,3 +1,6 @@
+#ifndef COMPANY_MEMBER_H
+#define COMPANY_MEMBER_H
+
 #include <iostream>
 #include "Member.h"
 

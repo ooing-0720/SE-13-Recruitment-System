@@ -1,6 +1,5 @@
 #include "SignOutUI.h"
 #include "SignOut.h"
-#include <iostream>
 
 using namespace std;
 

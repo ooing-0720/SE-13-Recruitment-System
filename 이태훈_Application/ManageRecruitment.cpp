@@ -6,12 +6,12 @@ using namespace std;
 
 vector<Recruitment> recruitments;
 
-void addNewRecruitment(const string& work, const int& numOfPeople, const string& dueDate){
+void ManageRecruitment::addNewRecruitment(const string& work, const int& numOfPeople, const string& dueDate){
     Recruitment newRecruitment(work, numOfPeople, dueDate);
     recruitments.push_back(newRecruitment);
 }
 
-void showRecruitmentDetail(){
+void ManageRecruitment::showRecruitmentDetail(){
     if(recruitments.empty()){
         cout << "등록된 채용 정보가 없습니다. " << endl;
     }
