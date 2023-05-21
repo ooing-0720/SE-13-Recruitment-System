@@ -5,11 +5,11 @@ SearchEmploymentUI::SearchEmploymentUI(){
 }
 
 // 4.1 채용 정보 검색
-void SearchEmploymentUI::SearchByCompanyName(Member member, char* company_name) {
-	searchEmployment.ShowEmploymentlist(member, company_name);
+void SearchEmploymentUI::SearchByCompanyName(string company_name, vector<Recruitment>& recruitment) {
+	searchEmployment.ShowEmploymentlist(company_name, recruitment);
 }
 
 // 4.2 채용 지원
-Apply SearchEmploymentUI::ApplyEmployment(string companyName, int companyNumber, string work, int TO, string deadlineDate, string applierID) {
-	return searchEmployment.addNewApply(companyName, companyNumber, work, TO, deadlineDate, applierID);
+Apply SearchEmploymentUI::ApplyEmployment(int companyNumber, string applierID, vector<Recruitment>& recruitment) {
+	return searchEmployment.addNewApply(companyNumber, applierID, recruitment);
 }

@@ -2,6 +2,7 @@
 #include <string.h>
 #include <vector>
 #include "SearchEmploymentUI.h"
+#include "ShowApplyInformationUI.h"
 
 using namespace std;
 
@@ -19,6 +20,7 @@ FILE* inFp, * outFp;
 
 // boundary class 변수 선언
 SearchEmploymentUI searchEmploymentUI;
+ShowApplyInformationUI showApplyInformationUI;
 
 
 int main() {
@@ -96,21 +98,29 @@ void doTask() {
 			{
 			case 1:		// 4.1 채용 정보 검색
 			{
-				char company_name[MAX_STRING];
+				string company_name;
 				fscanf(inFp, "%s", company_name);
-				searchEmploymentUI.SearchByCompanyName(currentMember, company_name);
+				searchEmploymentUI.SearchByCompanyName(company_name, recruitment);
 				break;
 			}
 			case 2:		// 4.2 채용 지원
 			{
 				// companyName, companyNumber, work, TO, deadlineDate 값들을 받아오는 함수가 필요함
-				// apply에 지원한 일반회원 정보도 저장해야 함 
-				// 일반회원 주민번호라던가 ID만 넘겨줘도 될 듯?
-				apply.push_back(searchEmploymentUI.ApplyEmployment(companyName, companyNumber, work, TO, deadlineDate, currentMember.getID()));
+				// apply에 지원한 현재 로그인중인 회원의 ID도 저장해야 함 
+				int company_number;
+				fscanf(inFp, "%d", company_number);
+
+				Apply tempApply = searchEmploymentUI.ApplyEmployment(company_number, currentMember.getID(), recruitment);
+				if (tempApply.getApplierID() == "-1")
+				{
+					break;
+				}
+				apply.push_back(tempApply);
 				break;
 			}
 			case 3:		// 4.3 지원 정보 조회
 			{
+				showApplyInformationUI.inquireApply(currentMember.getID(), apply);
 				break;
 			}
 			case 4:		//4.4 지원 취소

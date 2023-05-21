@@ -1,4 +1,5 @@
 #pragma once
+#include <algorithm>
 #include "Recruitment.h"
 #include "Apply.h"
 #include "Member.h"
@@ -7,11 +8,9 @@ using namespace std;
 
 class SearchEmployment {
 private:
-	Recruitment* recruitments;
-	Apply* apply;
+	Apply apply;
 public:
-	//SearchEmployment();
-	void ShowEmploymentlist(Member member, char *company_name);
-	Apply addNewApply(string companyName, int companyNumber, string work, int TO, string deadlineDate, string applierID);
+	void ShowEmploymentlist(string company_name, vector<Recruitment>& recruitment);
+	Apply addNewApply(int companyNumber, string applierID, vector<Recruitment>& recruitment);
 };
 

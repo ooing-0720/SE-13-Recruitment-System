@@ -1,8 +1,4 @@
 #include "Member.h"
-#include "CompanyMember.h"
-#include "GeneralMember.h"
-#include "main.cpp"
-using namespace std;
 
 Member::Member(string id, string password)
 {

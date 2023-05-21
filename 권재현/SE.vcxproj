@@ -140,18 +140,26 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Apply.cpp" />
+    <ClCompile Include="CompanyMember.cpp" />
+    <ClCompile Include="GeneralMember.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Member.cpp" />
     <ClCompile Include="Recruitment.cpp" />
     <ClCompile Include="SearchEmployment.cpp" />
     <ClCompile Include="SearchEmploymentUI.cpp" />
+    <ClCompile Include="ShowApplyInformation.cpp" />
+    <ClCompile Include="ShowApplyInformationUI.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Apply.h" />
+    <ClInclude Include="CompanyMember.h" />
+    <ClInclude Include="GeneralMember.h" />
     <ClInclude Include="Member.h" />
     <ClInclude Include="Recruitment.h" />
     <ClInclude Include="SearchEmployment.h" />
     <ClInclude Include="SearchEmploymentUI.h" />
+    <ClInclude Include="ShowApplyInformation.h" />
+    <ClInclude Include="ShowApplyInformationUI.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

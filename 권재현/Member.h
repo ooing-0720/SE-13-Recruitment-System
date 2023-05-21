@@ -1,4 +1,8 @@
+#pragma once
 #include <iostream>
+#include "CompanyMember.h"
+#include "GeneralMember.h"
+
 using namespace std;
 
 /*
