@@ -1,7 +1,7 @@
 #include "ShowApplyInformationUI.h"
 
 ShowApplyInformationUI::ShowApplyInformationUI() {
-	this->showApplyInformation = new ShowApplyInformation();
+	this->showApplyInformation = ShowApplyInformation();
 }
 
 /*

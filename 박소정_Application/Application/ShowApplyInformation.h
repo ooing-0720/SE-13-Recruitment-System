@@ -1,5 +1,6 @@
 #include <iostream>
 #include "Apply.h"
+#include "Recruitment.h"
 using namespace std;
 
 /*
@@ -8,6 +9,7 @@ using namespace std;
 class ShowApplyInformation {
 private:
 	Apply* applies;
+	Recruitment* recruitment;
 public:
 	void cancelApply(Member member, int companyNumber);
 	void showApply();

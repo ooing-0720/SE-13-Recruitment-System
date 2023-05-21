@@ -97,7 +97,7 @@ void doTask() {
 			}
 			case 4:		//4.4 지원 취소
 			{
-				showApplyInformationUI.cancelApply()
+				showApplyInformationUI.cancelApply();
 				break;
 			}
 			}
