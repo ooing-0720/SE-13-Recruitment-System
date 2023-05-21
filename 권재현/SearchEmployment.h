@@ -12,6 +12,6 @@ private:
 public:
 	//SearchEmployment();
 	void ShowEmploymentlist(Member member, char *company_name);
-	Apply addNewApply(string companyName, int companyNumber, string work, int TO, string deadlineDate, Member* applier);
+	Apply addNewApply(string companyName, int companyNumber, string work, int TO, string deadlineDate, string applierID);
 };
 

@@ -1,12 +1,12 @@
 #include "Apply.h"
 
-void Apply::setApply(string _companyName, int _companyNumber, string _work, int _TO, string _deadlineDate, Member* _applier) {
+void Apply::setApply(string _companyName, int _companyNumber, string _work, int _TO, string _deadlineDate, string _applier) {
 	this->companyName = _companyName;
 	this->companyNumber = _companyNumber;
 	this->work = _work;
 	this->TO = _TO;
 	this->deadlineDate = _deadlineDate;
-	this->applier = _applier;
+	this->applierID = _applier;
 }
 
 int Apply::getCompanyNumber() {
@@ -17,8 +17,8 @@ int Apply::getApplyCount() {
 	return applyCount;
 }
 
-Member* Apply::getApplier() {
-	return applier;
+string Apply::getApplierID() {
+	return applierID;
 }
 
 /*

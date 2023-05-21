@@ -10,6 +10,6 @@ void SearchEmploymentUI::SearchByCompanyName(Member member, char* company_name) 
 }
 
 // 4.2 채용 지원
-Apply SearchEmploymentUI::ApplyEmployment(string companyName, int companyNumber, string work, int TO, string deadlineDate, Member* applier) {
-	return searchEmployment.addNewApply(companyName, companyNumber, work, TO, deadlineDate, applier);
+Apply SearchEmploymentUI::ApplyEmployment(string companyName, int companyNumber, string work, int TO, string deadlineDate, string applierID) {
+	return searchEmployment.addNewApply(companyName, companyNumber, work, TO, deadlineDate, applierID);
 }

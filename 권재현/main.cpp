@@ -40,7 +40,7 @@ void doTask() {
 	vector<Recruitment> recruitment;
 	vector<Member> member;
 
-	Member currentMember; // 현재 로그인 중인 회원 저장
+	Member currentMember("0", "0"); // 로그인 후 여기에 현재 로그인 중인 회원 저장
 
 	while (!isProgramExit) {
 		// 입력 파일에서 메뉴 숫자 2개 읽기
@@ -104,9 +104,9 @@ void doTask() {
 			case 2:		// 4.2 채용 지원
 			{
 				// companyName, companyNumber, work, TO, deadlineDate 값들을 받아오는 함수가 필요함
-				// apply에 지원한 일반회원 정보도 저장해야 함
+				// apply에 지원한 일반회원 정보도 저장해야 함 
 				// 일반회원 주민번호라던가 ID만 넘겨줘도 될 듯?
-				apply.push_back(searchEmploymentUI.ApplyEmployment(companyName, companyNumber, work, TO, deadlineDate, applier));
+				apply.push_back(searchEmploymentUI.ApplyEmployment(companyName, companyNumber, work, TO, deadlineDate, currentMember.getID()));
 				break;
 			}
 			case 3:		// 4.3 지원 정보 조회

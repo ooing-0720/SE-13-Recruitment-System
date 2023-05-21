@@ -8,6 +8,6 @@ private:
 public:
 	SearchEmploymentUI();
 	void SearchByCompanyName(Member member, char* company_name);
-	Apply ApplyEmployment(string companyName, int companyNumber, string work, int TO, string deadlineDate, Member* applier);
+	Apply ApplyEmployment(string companyName, int companyNumber, string work, int TO, string deadlineDate, string applierID);
 };
 
