@@ -9,6 +9,10 @@ void Apply::setApply(string _companyName, int _companyNumber, string _work, int 
 	this->applierID = _applier;
 }
 
+tuple<string, int, string, int, string, string> Apply::getApply() {
+	return make_tuple(companyName, companyNumber, work, TO, deadlineDate, applierID);
+}
+
 int Apply::getCompanyNumber() {
 	return companyNumber;
 }

@@ -2,6 +2,7 @@
 #include <string.h>
 #include <vector>
 #include "SearchEmploymentUI.h"
+#include "ShowApplyInformationUI.h"
 
 using namespace std;
 
@@ -19,6 +20,7 @@ FILE* inFp, * outFp;
 
 // boundary class 변수 선언
 SearchEmploymentUI searchEmploymentUI;
+ShowApplyInformationUI showApplyInformationUI;
 
 
 int main() {
@@ -118,6 +120,7 @@ void doTask() {
 			}
 			case 3:		// 4.3 지원 정보 조회
 			{
+				showApplyInformationUI.inquireApply(currentMember.getID(), apply);
 				break;
 			}
 			case 4:		//4.4 지원 취소

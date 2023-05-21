@@ -1,6 +1,7 @@
 #pragma once
 #include <iostream>
 #include <vector>
+#include <tuple>
 #include "Member.h"
 using namespace std;
 
@@ -15,6 +16,7 @@ private:
 
 public:
 	void setApply(string companyName, int companyNumber, string work, int TO, string deadlineDate, string applier);	// 채용 지원 생성
+	tuple<string, int, string, int, string, string> getApply();
 	int getCompanyNumber();
 	string getApplierID();
 };
