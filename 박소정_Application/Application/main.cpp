@@ -13,9 +13,13 @@ void programExit();
 
 // 변수 선언
 FILE* inFp, * outFp;
+Member member;				// 현재 로그인한 회원 정보 저장
+Recruitment* recruitments;	// 등록된 채용 정보 저장
+Apply* applies;				// 등록된 지원 정보 저장
 
 // boundary class 변수 선언
 ShowApplyInformationUI showApplyInformationUI;
+
 int main() {
 	// 파일 입출력을 위한 초기화
 	inFp = fopen(INPUT_FILE_NAME, "r+");
@@ -97,7 +101,11 @@ void doTask() {
 			}
 			case 4:		//4.4 지원 취소
 			{
-				showApplyInformationUI.cancelApply();
+				int companyNumber;
+				fscanf(inFp, "%d", &companyNumber);
+
+				showApplyInformationUI = ShowApplyInformationUI(applies, recruitments);
+				showApplyInformationUI.cancelApply(companyNumber, member.getId());
 				break;
 			}
 			}
@@ -107,7 +115,8 @@ void doTask() {
 			switch (menuLevel2) {
 			case 1:		// 5.1 지원 정보 통계
 			{
-				showApplyInformationUI.showWorkApply();
+				showApplyInformationUI = ShowApplyInformationUI(applies, recruitments);
+				showApplyInformationUI.showWorkApply(member, member.getId());
 				break;
 			}
 			}

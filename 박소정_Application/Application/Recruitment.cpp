@@ -1,5 +1,9 @@
 #include "Recruitment.h"
 
+string Recruitment::getWriterID() {
+	return writerID;
+}
+
 int Recruitment::getCompanyNumber() {
 	return companyNumber;
 }

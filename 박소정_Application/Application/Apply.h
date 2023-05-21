@@ -4,20 +4,21 @@
 #include "GeneralMember.h"
 using namespace std;
 
+/*
+* 지원 정보(Apply) Entity 클래스
+*/
 class Apply {
 private:
+	string companyName;
 	int companyNumber;
 	string work;
-	int applyCount;
-	string companyName;
-	Member* applier;
+	string applierID;
+	
 public:
 	string getCompanyName();
 	string getWork();
 	int getCompanyNumber();
-	int getApplyCount();
-	Member* getApplier();
-	void cancelApply(Member member);
-	void countWorkApplyByCompany();
-	void countWorkApplyByGeneral(Member member);
+	string getApplierID();
+	void cancelApply();		// 지원 취소
+	void countWorkApplyByGeneral(string applierID);
 };

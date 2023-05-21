@@ -1,60 +1,30 @@
 #include "Apply.h"
 
-string Apply::getWork() {
-	return work;
+
+string Apply::getCompanyName() {
+	return companyName;
 }
 
 int Apply::getCompanyNumber() {
 	return companyNumber;
 }
 
-int Apply::getApplyCount() {
-	return applyCount;
+string Apply::getWork() {
+	return work;
 }
 
-string Apply::getCompanyName() {
-	return companyName;
+
+string Apply::getApplierID() {
+	return applierID;
 }
 
-Member* Apply::getApplier() {
-	return applier;
-}
+
 
 /*
 * 지원 취소 기능
-* 현재 진행중인 채용 정보에 대해 지원 취소
+* 일반 회원이 현재 진행중인 채용 정보에 대해 지원 취소
+* 해당 객체 삭제
 */
-void Apply::cancelApply(Member member) {
-	for (int i = 0; i < applyCount - 1; i++) {
-		if (applier[i].getId() == member.getId()) {
-			applier[i] = applier[i + 1];
-		}
-	}
-	// 회원 한 명의 지원이 취소되었으므로 지원자 수 1 감소
-	--applyCount;
-}
-
-/*
-* 회사 회원 지원 정보 통계 기능
-* 해당 지원 정보에 대해 업무와 지원자 수 출력
-*/
-void Apply::countWorkApplyByCompany() {
-	cout << work << " " << applyCount <<endl;
-}
-
-/*
-* 일반 회원 지원 정보 통계 기능
-* 본인이 지원한 정보에 대해 업무와 지원 횟수 출력
-*/
-void Apply::countWorkApplyByGeneral(Member member) {
-	int count = 0;
-	for (int i = 0; i < applyCount; i++) {
-		if (applier[i].getId() == member.getId())
-			++count;
-	}
-	
-	// 회원이 지원한 경우 지원 정보 출력
-	if (count != 0) {
-		cout << work << " " << count << endl;
-	}
+void Apply::cancelApply() {
+	delete this;
 }

@@ -9,9 +9,10 @@ using namespace std;
 class ShowApplyInformation {
 private:
 	Apply* applies;
-	Recruitment* recruitment;
+	Recruitment* recruitments;
 public:
-	void cancelApply(Member member, int companyNumber);
+	ShowApplyInformation(Apply* applies, Recruitment* recruitments);
+	void cancelApply(int companyNumber, string applierID);	// 지원 취소
 	void showApply();
-	void showWorkApply(Member member);
+	void showWorkApply(Member member, string ID);			// 지원 정보 통계
 };

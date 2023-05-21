@@ -8,7 +8,8 @@ private:
 	ShowApplyInformation showApplyInformation;
 public:
 	ShowApplyInformationUI();
+	ShowApplyInformationUI(Apply* applies, Recruitment* recruitments);
 	void inquireApply();
-	void showWorkApply(Member member);
-	void cancelApply(Member member, int companyNumber);
+	void showWorkApply(Member member, string ID);			// 지원 정보 통계
+	void cancelApply(int companyNumber, string applierID);	// 지원 취소
 };
