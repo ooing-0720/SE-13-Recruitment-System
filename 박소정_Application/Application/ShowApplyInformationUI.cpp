@@ -1,7 +1,7 @@
 #include "ShowApplyInformationUI.h"
 
-ShowApplyInformationUI::ShowApplyInformationUI(Apply* applies, Recruitment* recruitments) {
-	this->showApplyInformation = ShowApplyInformation(applies, recruitments);
+ShowApplyInformationUI::ShowApplyInformationUI(vector<Apply>& apply, vector<Recruitment>& recruitment) {
+	this->showApplyInformation = ShowApplyInformation(apply, recruitment);
 }
 
 /*

@@ -3,9 +3,9 @@
 #include <iterator>
 
 
-ShowApplyInformation::ShowApplyInformation(Apply* applies, Recruitment* recruitments) {
-	this->applies = applies;
-	this->recruitments = recruitments;
+ShowApplyInformation::ShowApplyInformation(vector<Apply>& apply, vector<Recruitment>& recruitment) {
+	this->applies = apply;
+	this->recruitments = recruitment;
 }
 
 /*

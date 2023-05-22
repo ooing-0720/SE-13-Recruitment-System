@@ -1,4 +1,5 @@
 #include <iostream>
+#include <vector>
 #include "Apply.h"
 #include "Recruitment.h"
 using namespace std;
@@ -8,10 +9,10 @@ using namespace std;
 */
 class ShowApplyInformation {
 private:
-	Apply* applies;
-	Recruitment* recruitments;
+	vector<Apply> applies;
+	vector<Recruitment> recruitments;
 public:
-	ShowApplyInformation(Apply* applies, Recruitment* recruitments);
+	ShowApplyInformation(vector<Apply>& apply, vector<Recruitment>& recruitment);
 	void cancelApply(int companyNumber, string applierID);	// 지원 취소
 	void showApply();
 	void showWorkApply(Member member, string ID);			// 지원 정보 통계

@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <string.h>
+#include <vector>
 #include "ShowApplyInformationUI.h"
 
 // 상수 선언
@@ -13,9 +14,10 @@ void programExit();
 
 // 변수 선언
 FILE* inFp, * outFp;
-Member member;				// 현재 로그인한 회원 정보 저장
-Recruitment* recruitments;	// 등록된 채용 정보 저장
-Apply* applies;				// 등록된 지원 정보 저장
+
+vector<Apply> apply;
+vector<Recruitment> recruitment;
+vector<Member> member;
 
 // boundary class 변수 선언
 ShowApplyInformationUI showApplyInformationUI;
