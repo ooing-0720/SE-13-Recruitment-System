@@ -17,7 +17,7 @@ string Member::getPassword() const { return password; }
 bool Member::getStatus() const { return status; }
 void Member::setStatus(bool status) { this->status = status; }
 
-//회원가입 되어있는지 확인
+// 로그인 시도하는 회원이 가입한 회원인지 확인
 bool Member::validate(vector<Member>& members, const std::string& inputId, const std::string& inputPassword) {
     for (Member i : members) {
         if (i.getID() == inputId) {

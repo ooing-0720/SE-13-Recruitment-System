@@ -4,6 +4,9 @@
 #include <string>
 #include "Recruitment.h"
 
+/*
+* 채용 관리 conotrol class
+*/
 
 class ManageRecruitment {
 public:

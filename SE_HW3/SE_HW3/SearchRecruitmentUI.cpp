@@ -4,11 +4,15 @@
 extern ifstream inFp;
 extern ofstream outFp;
 
+/*
+* 채용 정보 검색 boundary class
+*/
+
 SearchRecruitmentUI::SearchRecruitmentUI() {
     SearchRecruitment* searchRecruitment = new SearchRecruitment;
 }
 
-// 4.1. 채용 정보 검색
+// 입력받은 회사 회원(사업자 번호)이 등록한 채용 정보를 출력
 void SearchRecruitmentUI::searchByCompanyName(vector<Recruitment>& recruitment) {
     // 검색할 회사 정보 입력
     string companyName;
@@ -25,7 +29,7 @@ void SearchRecruitmentUI::searchByCompanyName(vector<Recruitment>& recruitment) 
     }
 }
 
-// 4.2. 채용 지원
+// 입력받은 회사 회원(사업자 번호)이 등록한 채용 정보에 지원
 void SearchRecruitmentUI::applyRecruitment(string applierID, vector<Recruitment>& recruitment, vector<Apply>& apply) {
     // 지원할 회사 번호(사업자 번호) 입력
     int companyNumber;
@@ -33,6 +37,7 @@ void SearchRecruitmentUI::applyRecruitment(string applierID, vector<Recruitment>
 
     outFp << "4.2. 채용 지원" << endl;
 
+    // 새로운 지원 정보 생성
     tuple<string, int, string> temp = searchRecruitment.addNewApply(companyNumber, applierID, recruitment, apply);
     if ((get<0>(temp) == "0") && (get<1>(temp) == 0) && (get<2>(temp) == "0"))
     {

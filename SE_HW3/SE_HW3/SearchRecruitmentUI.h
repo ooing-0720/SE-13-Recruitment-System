@@ -4,7 +4,10 @@
 #pragma once
 #include "SearchRecruitment.h"
 
-// 채용 정보(Recruitment)를 화면에 출력하는 boundary class
+/*
+* 채용 정보 검색 boundary class
+*/
+
 class SearchRecruitmentUI {
 private:
     SearchRecruitment searchRecruitment;

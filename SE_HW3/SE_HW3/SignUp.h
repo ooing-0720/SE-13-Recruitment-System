@@ -6,7 +6,7 @@
 
 using namespace std;
 /*
- * 회원가입을 처리하는 control class
+ * 회원가입 control class
  */
 class SignUp {
 public:

@@ -7,6 +7,10 @@
 
 using namespace std;
 
+/*
+* 채용 정보 검색 control class
+*/
+
 class SearchRecruitment {
 private:
     Apply apply;

@@ -7,8 +7,9 @@
 using namespace std;
 
 /*
- * È¸¿øÅ»Åð¸¦ Ã³¸®ÇÏ´Â control class
+ * È¸¿øÅ»Åð control class
  */
+
 class WithDrawal {
 public:
     void clickWithdrawal(Member member);

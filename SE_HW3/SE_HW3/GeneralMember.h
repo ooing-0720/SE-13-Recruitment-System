@@ -4,6 +4,10 @@
 #include <iostream>
 #include "Member.h"
 
+/*
+* 일반 회원 entity class
+*/
+
 class GeneralMember : public Member {
 public:
     GeneralMember(const string& name, const int& number, const string& id, const string& password);

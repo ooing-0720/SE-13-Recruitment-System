@@ -7,8 +7,9 @@
 #include "GeneralMember.h"
 
 /*
- * 로그인을 처리하는 control class
+ * 로그인 control class
  */
+
 class SignIn {
 public:
 

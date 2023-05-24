@@ -3,6 +3,11 @@
 
 #include "Member.h"
 
+/*
+ * ·Î±×¾Æ¿ô control class
+ */
+
+
 class SignOut {
 public:
     static string signOut(Member& member);

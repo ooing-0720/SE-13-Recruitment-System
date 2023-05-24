@@ -6,6 +6,7 @@
 /*
  * È¸¿øÅ»Åð boundary class
  */
+
 class WithDrawalUI
 {
 private:

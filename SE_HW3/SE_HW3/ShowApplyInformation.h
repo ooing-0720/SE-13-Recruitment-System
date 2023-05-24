@@ -1,4 +1,6 @@
-#pragma once
+#ifndef SHOW_APPLY_INFORMATION_H
+#define SHOW_APPLY_INFORMATION_H
+
 #include <iostream>
 #include <algorithm>
 #include <map>
@@ -7,8 +9,9 @@
 using namespace std;
 
 /*
-* 지원 정보(Apply)를 처리하는 control class
+* 지원 정보 관리(처리) control class
 */
+
 class ShowApplyInformation {
 private:
     vector<Apply> applies;
@@ -20,3 +23,5 @@ public:
     string cancelApply(int companyNumber, string applierID, vector<Apply>& apply); // 지원 취소
     map<string, int> showWorkApply(Member member, string id, string companyName, vector<Apply>& apply, vector<Recruitment>& recruitment);   // 지원 정보 통계
 };
+
+#endif
