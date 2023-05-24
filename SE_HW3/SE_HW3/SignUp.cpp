@@ -15,7 +15,7 @@ string SignUp::putUserDetails(vector<Member>& member, int devideMemberType, stri
         companyMember.saveMember(devideMemberType);
         member.push_back(companyMember);
 
-        string result = name + " " +
+        string result = "1 " + name + " " +
             to_string(number) + " " +
             id + " " +
             password;
@@ -28,7 +28,7 @@ string SignUp::putUserDetails(vector<Member>& member, int devideMemberType, stri
         generalMember.saveMember(devideMemberType);
         member.push_back(generalMember);
 
-        string result = name + " " +
+        string result = "2 " + name + " " +
             to_string(number) + " " +
             id + " " +
             password;

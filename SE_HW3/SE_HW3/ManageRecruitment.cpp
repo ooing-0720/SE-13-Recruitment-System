@@ -10,7 +10,7 @@ string ManageRecruitment::addNewRecruitment(vector<Recruitment>& recruitments, c
     Recruitment newRecruitment(companyName, companyNumber, work, numOfPeople, dueDate);
     recruitments.push_back(newRecruitment);
 
-    string result = "> " + work + " " +
+    string result = work + " " +
         to_string(numOfPeople) + " " +
         dueDate;
     return result;

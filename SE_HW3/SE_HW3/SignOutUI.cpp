@@ -1,11 +1,14 @@
 #include "SignOutUI.h"
 #include "SignOut.h"
-extern FILE* inFp, * outFp;
+#include <fstream>
+
+extern ifstream inFp;
+extern ofstream outFp;
 
 using namespace std;
 
 void SignOutUI::signOutUI( Member& member) {
-    fprintf(outFp, "2.2. ·Î±×¾Æ¿ô\n");
+    outFp << "2.2. ·Î±×¾Æ¿ô" << endl;
     string result = SignOut::signOut(member);
-    fprintf(outFp, "%s ", result);
+    outFp << "> " << result << endl << endl;
 }

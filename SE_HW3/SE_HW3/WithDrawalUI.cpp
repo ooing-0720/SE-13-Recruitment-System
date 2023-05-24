@@ -1,5 +1,8 @@
 #include "WithDrawalUI.h"
-extern FILE* inFp, * outFp;
+#include <fstream>
+
+extern ifstream inFp;
+extern ofstream outFp;
 
 WithDrawalUI::WithDrawalUI() : withDrawal() {}
 
@@ -9,6 +12,6 @@ WithDrawalUI::WithDrawalUI() : withDrawal() {}
 void WithDrawalUI::clickWithdrawal(Member currentMember, vector<Member>& members)
 {
     string result = withDrawal.clickWithdrawal(currentMember, members);
-    fprintf(outFp, "1.2. È¸¿øÅ»Åð\n");
-    fprintf(outFp, "%s\n", result);
+    outFp << "1.2. È¸¿øÅ»Åð" << endl;
+    outFp << "> " << result << endl << endl;
 }

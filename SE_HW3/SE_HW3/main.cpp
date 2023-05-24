@@ -1,4 +1,5 @@
 #include <iostream>
+#include <fstream>
 #include <string.h>
 #include <vector>
 #include "SignUpUI.h"
@@ -23,8 +24,10 @@ void doTask();
 void programExit();
 
 // 변수 선언
-FILE* inFp = fopen(INPUT_FILE_NAME, "r+");
-FILE* outFp = fopen(OUTPUT_FILE_NAME, "w+");
+ifstream inFp(INPUT_FILE_NAME);
+ofstream outFp(OUTPUT_FILE_NAME);
+
+
 
 // boundary class 변수 선언
 SignUpUI signUpUI;
@@ -38,9 +41,7 @@ ShowApplyInformationUI showApplyInformationUI;
 
 
 int main() {
-    
-    fprintf(outFp, "1.1. 회원가입\n");
-
+   
     doTask();
 
     return 0;
@@ -60,7 +61,7 @@ void doTask() {
     while (!isProgramExit) {
 
         // 입력 파일에서 메뉴 숫자 2개 읽기
-        fscanf(inFp, "%d %d ", &menuLevel1, &menuLevel2);
+        inFp >> menuLevel1 >> menuLevel2;
 
         // 메뉴 구분 및 해당 연산 수행
         switch (menuLevel1)
@@ -72,7 +73,6 @@ void doTask() {
             case 1:		// 1.1 회원 가입
             {
                 signUpUI.putUserDetails(member);
-                cout << "6";
                 break;
             }
             case 2:		// 1.2 회원 탈퇴
@@ -173,5 +173,5 @@ void doTask() {
 
 
 void programExit() {
-
+    outFp << "6.1. 종료" << endl;
 }

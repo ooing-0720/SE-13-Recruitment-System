@@ -1,5 +1,8 @@
 #include "SignInUI.h"
-extern FILE* inFp, * outFp;
+#include <fstream>
+
+extern ifstream inFp;
+extern ofstream outFp;
 
 SignInUI::SignInUI() : signIn() {}
 
@@ -11,9 +14,9 @@ void SignInUI::putUserDetails(vector<Member>& member, Member& currentMember)
     // 로그인 정보 입력
     string id;
     string password;
-    fscanf(inFp, "%s %s ", &id, &password);
+    inFp >> id >> password;
 
-    fprintf(outFp, "2.1. 로그인\n");
+    outFp << "2.1. 로그인" << endl;
     string result = SignIn::putUserDetails(member, currentMember, id, password);
-    fprintf(outFp, "%s ", result);
+    outFp << "> " << result << endl << endl;
 }

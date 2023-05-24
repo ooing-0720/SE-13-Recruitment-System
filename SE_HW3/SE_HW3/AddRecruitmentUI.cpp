@@ -1,7 +1,10 @@
 #include "AddRecruitmentUI.h"
 #include "ManageRecruitment.h"
 #include <iostream>
-extern FILE* inFp, * outFp;
+#include <fstream>
+
+extern ifstream inFp;
+extern ofstream outFp;
 
 using namespace std;
 
@@ -10,9 +13,9 @@ void AddRecruitmentUI::createNewRecruitment(vector<Recruitment>& recruitments, M
     string work;
     int numOfPeople;
     string dueDate;
-    fscanf(inFp, "%s %d %s", &work, &numOfPeople, &dueDate);
+    inFp >> work >> numOfPeople >> dueDate;
 
-    fprintf(outFp, "3.1. 채용 정보 등록\n");
+    outFp << "3.1. 채용 정보 등록" << endl;
 
     //현재 회사회원 이름, 번호 저장
     string companyName = company.getName();
@@ -21,5 +24,5 @@ void AddRecruitmentUI::createNewRecruitment(vector<Recruitment>& recruitments, M
 
     string result = ManageRecruitment::addNewRecruitment(recruitments, companyName, companyNumber, work, numOfPeople, dueDate);
 
-    fprintf(outFp, "%s", result);
+    outFp << "> " << result << endl << endl;
 };

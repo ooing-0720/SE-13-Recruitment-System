@@ -4,6 +4,7 @@
 #include <iostream>
 #include "SignUp.h"
 #include "Member.h"
+
 /*
  * 회원가입 boundary class
  */

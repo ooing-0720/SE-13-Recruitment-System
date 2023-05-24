@@ -1,5 +1,8 @@
 #include "ShowApplyInformationUI.h"
-extern FILE* inFp, * outFp;
+#include <fstream>
+
+extern ifstream inFp;
+extern ofstream outFp;
 
 ShowApplyInformationUI::ShowApplyInformationUI(vector<Apply>& apply, vector<Recruitment>& recruitment) {
     this->showApplyInformation = ShowApplyInformation(apply, recruitment);
@@ -7,14 +10,14 @@ ShowApplyInformationUI::ShowApplyInformationUI(vector<Apply>& apply, vector<Recr
 
 // 4.3 지원 정보 조회
 void ShowApplyInformationUI::inquireApply(string memberID, vector<Apply>& apply) {
-    fprintf(outFp, "4.3. 지원 정보 조회\n");
+    outFp << "4.3. 지원 정보 조회" << endl;
     vector<tuple<string, int, string, int, string, string>> saveApply;
     saveApply = showApplyInformation.showApply(memberID, apply);
 
     for (int i = 0; i < saveApply.size(); i++)
     {
         tuple<string, int, string, int, string, string> a = saveApply[i];
-        fprintf(outFp, "%s %d %s %d %s\n", get<0>(a), get<1>(a), get<2>(a), get<3>(a), get<4>(a));
+        outFp << "> " << get<0>(a) << " " << get<1>(a) << " " << get<2>(a) << " " << get<3>(a) << " " << get<4>(a) << endl << endl;
     }
 }
 
@@ -24,24 +27,24 @@ void ShowApplyInformationUI::inquireApply(string memberID, vector<Apply>& apply)
 void ShowApplyInformationUI::cancelApply(string applierID, vector<Apply>& apply) {
     // 지원 취소할 회사의(사업자) 번호 입력
     int companyNumber;
-    fscanf(inFp, "%d" , &companyNumber);
+    inFp >> companyNumber;
     
-    fprintf(outFp, "4.4. 지원 취소\n");
+    outFp << "4.4. 지원 취소" << endl;
 
     
     string result = showApplyInformation.cancelApply(companyNumber, applierID, apply);
 
-    fprintf(outFp, "%s\n", result);
+    outFp << "> " << result << endl << endl;
 }
 
 /*
 * 5.1 지원 정보 통계 입력
 */
 void ShowApplyInformationUI::showWorkApply(Member member, string id, string companyName, vector<Apply>& apply, vector<Recruitment>& recruitment) {
-    fprintf(outFp, "5.1. 지원 정보 통계\n");
+    outFp << "5.1. 지원 정보 통계" << endl;
     map<string, int> countByWork = showApplyInformation.showWorkApply(member, id, companyName, apply, recruitment);
 
     for (map<string, int>::iterator it = countByWork.begin(); it != countByWork.end(); it++) {
-        fprintf(outFp, "%s %d\n", it->first, it->second);
+        outFp << "> " << it->first << " " << it->second << endl << endl;
     }
 }
