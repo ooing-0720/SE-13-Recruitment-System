@@ -1,0 +1,3 @@
+/Users/leetaehoon/Desktop/학교/4학년/소프트웨어 공학/untitled folder/cmake-build-debug/CMakeFiles/untitled_folder.dir
+/Users/leetaehoon/Desktop/학교/4학년/소프트웨어 공학/untitled folder/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/leetaehoon/Desktop/학교/4학년/소프트웨어 공학/untitled folder/cmake-build-debug/CMakeFiles/rebuild_cache.dir
