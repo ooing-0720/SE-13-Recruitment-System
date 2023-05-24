@@ -23,7 +23,6 @@ vector<Recruitment> ManageRecruitment::showRecruitmentDetail(vector<Recruitment>
     for (int i = 0; i < recruitments.size(); i++) {
         
         if (recruitments[i].getCompanyName()== name) {
-            cout << (name == recruitments[i].getCompanyName()) << endl;
             myRecruitments.push_back(recruitments[i]);
         }
     }

@@ -1,10 +1,2 @@
 ﻿  main.cpp
-  ShowRecruitmentUI.cpp
-C:\Users\a_mor\Desktop\OOING\HONGIK\4-1\SE\HW2+3\SE_HW3\SE_HW3\ShowRecruitmentUI.cpp(14,24): warning C4477: 'fprintf' : 서식 문자열 '%s'에 'char *' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'std::string'입니다.
-C:\Users\a_mor\Desktop\OOING\HONGIK\4-1\SE\HW2+3\SE_HW3\SE_HW3\ShowRecruitmentUI.cpp(14,24): warning C4477: 'fprintf' : 서식 문자열 '%s'에 'char *' 형식의 인수가 필요하지만 variadic 인수 3의 형식이 'std::string'입니다.
-  SignInUI.cpp
-C:\Users\a_mor\Desktop\OOING\HONGIK\4-1\SE\HW2+3\SE_HW3\SE_HW3\SignInUI.cpp(14,18): warning C4477: 'fscanf' : 서식 문자열 '%s'에 'char *' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'std::string *'입니다.
-C:\Users\a_mor\Desktop\OOING\HONGIK\4-1\SE\HW2+3\SE_HW3\SE_HW3\SignInUI.cpp(14,18): warning C4477: 'fscanf' : 서식 문자열 '%s'에 'char *' 형식의 인수가 필요하지만 variadic 인수 2의 형식이 'std::string *'입니다.
-C:\Users\a_mor\Desktop\OOING\HONGIK\4-1\SE\HW2+3\SE_HW3\SE_HW3\SignInUI.cpp(18,20): warning C4477: 'fprintf' : 서식 문자열 '%s'에 'char *' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'std::string'입니다.
-  코드를 생성하고 있습니다...
-  SE_HW3.vcxproj -> C:\Users\a_mor\Desktop\OOING\HONGIK\4-1\SE\HW2+3\SE_HW3\x64\Debug\SE_HW3.exe
+  SE_HW3.vcxproj -> C:\Users\a_mor\Desktop\OOING\HONGIK\4-1\SE\HW2+3\13\SE_HW3\x64\Debug\SE_HW3.exe

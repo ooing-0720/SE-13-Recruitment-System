@@ -23,7 +23,8 @@ void doTask();
 void programExit();
 
 // 변수 선언
-FILE* inFp, * outFp;
+FILE* inFp = fopen(INPUT_FILE_NAME, "r+");
+FILE* outFp = fopen(OUTPUT_FILE_NAME, "w+");
 
 // boundary class 변수 선언
 SignUpUI signUpUI;
@@ -37,10 +38,8 @@ ShowApplyInformationUI showApplyInformationUI;
 
 
 int main() {
-
-    // 파일 입출력을 위한 초기화
-    inFp = fopen(INPUT_FILE_NAME, "r+");
-    outFp = fopen(OUTPUT_FILE_NAME, "w+");
+    
+    fprintf(outFp, "1.1. 회원가입\n");
 
     doTask();
 
@@ -73,6 +72,7 @@ void doTask() {
             case 1:		// 1.1 회원 가입
             {
                 signUpUI.putUserDetails(member);
+                cout << "6";
                 break;
             }
             case 2:		// 1.2 회원 탈퇴
