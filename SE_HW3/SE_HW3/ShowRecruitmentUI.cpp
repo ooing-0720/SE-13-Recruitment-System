@@ -19,8 +19,8 @@ void ShowRecruitmentUI::startInterface(vector<Recruitment>& recruitment, string 
     vector<Recruitment> result = ManageRecruitment::showRecruitmentDetail(recruitment, name);
 
     for (int i = 0; i < result.size(); i++) {
-        outFp << "> " << result[i].getWork() << " " << result[i].getNumOfPeople() << " " << result[i].getDueDate() << endl << endl;
+        outFp << "> " << result[i].getWork() << " " << result[i].getNumOfPeople() << " " << result[i].getDueDate() << endl;
     }
-
+    outFp << endl;
 
 }

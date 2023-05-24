@@ -1,3 +1,38 @@
+[ooing-0720] Thu May 25 03:28:46 2023 +0900 주석, 보고서 수정 58e4ba3
+[ooing-0720] Thu May 25 02:43:01 2023 +0900 시퀀스 다이어그램 수정 완료 1535d58
+[brian] Wed May 24 22:22:28 2023 +0900 Fixed: Sequence Diagram 수정 1a5603d
+[ooing-0720] Wed May 24 21:53:12 2023 +0900 입출력 수정 완료 7a61ed5
+[ooing-0720] Wed May 24 21:51:05 2023 +0900 입출력 수정 완료 2473062
+[ooing-0720] Wed May 24 20:47:08 2023 +0900 Merge branch 'main' of https://github.com/ooing-0720/SE-13-Recruitment-System 25afd8b
+[ooing-0720] Wed May 24 20:46:50 2023 +0900 입출력 수정중 e1da615
+[taehoon] Wed May 24 19:48:42 2023 +0900 회원탈퇴 e14a895
+[taehoon] Wed May 24 19:47:45 2023 +0900 chore: 폴더오류 1e33ef9
+[taehoon] Wed May 24 19:45:54 2023 +0900 회원탈퇴 4ad1ff3
+[taehoon] Tue May 23 19:45:18 2023 +0900 test case 통과본: f432b65
+[baebaebuae] Tue May 23 04:28:56 2023 +0900 재현 + 소정 + 현민 d965e0f
+[ooing-0720] Mon May 22 17:29:18 2023 +0900 재현+소정 80ae00c
+[ooing-0720] Mon May 22 15:35:33 2023 +0900 vector로 수정 cdf2b02
+[ooing-0720] Mon May 22 15:21:22 2023 +0900 지원 정보 통계 수정 c821805
+[taehoon] Mon May 22 04:29:10 2023 +0900 채용 정보 조회 까지 합침 1bf0bc8
+[ooing-0720] Sun May 21 22:02:23 2023 +0900 Merge branch 'main' of https://github.com/ooing-0720/SE-13-Recruitment-System c278d2c
+[ooing-0720] Sun May 21 22:02:08 2023 +0900 main, 지원 수정 9bddaa2
+[baebaebuae] Sun May 21 21:57:20 2023 +0900 4.1 4.2 4.3 구현 완료 914b108
+[baebaebuae] Sun May 21 20:24:37 2023 +0900 4.1, 4.2 구현 382b22a
+[brian] Sun May 21 16:25:53 2023 +0900 Add: 코드 구현 완료 93c409f
+[brian] Sun May 21 16:25:18 2023 +0900 ㅁ 1a5b9f2
+[brian] Sun May 21 16:23:12 2023 +0900 Add: 코드 구현 완료 6e4bdd4
+[brian] Sun May 21 16:22:41 2023 +0900 wge e6e5172
+[baebaebuae] Sun May 21 13:15:34 2023 +0900 Member, Apply 수정 a52d50b
+[baebaebuae] Sun May 21 12:24:05 2023 +0900 4.1, 4.2 일부 구현 / sequence diagram 일부 수정 eda8277
+[ooing-0720] Sun May 21 10:57:00 2023 +0900 지원 정보 통계 수정 15616dd
+[brian] Sun May 21 04:38:35 2023 +0900 Add: 코드 구현 완료 d4dafda
+[brian] Sun May 21 04:38:03 2023 +0900 delete f13c6c0
+[brian] Sat May 20 20:02:55 2023 +0900 Add: 회원가입,로그인,회원탈퇴 .h,.cpp 1c7ca82
+[taehoon] Sat May 20 18:25:00 2023 +0900 feat:채용정보조회, 등록 ui추가 eefa79e
+[taehoon] Sat May 20 17:30:14 2023 +0900 feat:로그아웃, 채용정보등록, 채용정보 조회 7a777cc
+[ooing-0720] Sat May 20 15:07:01 2023 +0900 apply implementation 2a762cd
+[baebaebuae] Fri May 19 19:56:06 2023 +0900 Requirement list, Use case diagram, Use case discription 수정 e4fb69a
+[권재현] Fri May 12 00:00:44 2023 +0900 log_output.txt 추가 2a63b8a
 [ooing] Thu May 11 23:41:59 2023 +0900 최종 3f58e05
 [ooing] Thu May 11 23:19:15 2023 +0900 diagram 최종 fae32ef
 [권재현] Thu May 11 23:02:27 2023 +0900 보고서 일부 수정 4a390be

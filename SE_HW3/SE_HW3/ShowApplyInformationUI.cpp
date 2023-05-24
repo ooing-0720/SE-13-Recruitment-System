@@ -44,6 +44,7 @@ void ShowApplyInformationUI::showWorkApply(Member member, string id, string comp
     map<string, int> countByWork = showApplyInformation.showWorkApply(member, id, companyName, apply, recruitment);
 
     for (map<string, int>::iterator it = countByWork.begin(); it != countByWork.end(); it++) {
-        outFp << "> " << it->first << " " << it->second << endl << endl;
+        outFp << "> " << it->first << " " << it->second << endl;
     }
+    outFp << endl;
 }
