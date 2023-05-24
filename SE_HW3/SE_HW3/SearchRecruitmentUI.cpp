@@ -1,0 +1,39 @@
+#include "SearchRecruitmentUI.h"
+extern FILE* inFp, * outFp;
+
+SearchRecruitmentUI::SearchRecruitmentUI() {
+    SearchRecruitment* searchRecruitment = new SearchRecruitment;
+}
+
+// 4.1. 채용 정보 검색
+void SearchRecruitmentUI::SearchByCompanyName(vector<Recruitment>& recruitment) {
+    // 검색할 회사 정보 입력
+    string companyName;
+    fscanf(inFp, "%s", &companyName);
+
+    fprintf(outFp, "4.1. 채용 정보 검색\n");
+    vector<tuple<string, int, string, int, string>> saveRecruitment;
+    saveRecruitment = SearchRecruitment::ShowRecruitmentList(companyName, recruitment);
+
+    for (int i = 0; i < saveRecruitment.size(); i++)
+    {
+        tuple<string, int, string, int, string> a = saveRecruitment[i];
+        fprintf(outFp, "%s %d %s %d %s\n", get<0>(a), get<1>(a), get<2>(a), get<3>(a), get<4>(a));
+    }
+}
+
+// 4.2. 채용 지원
+void SearchRecruitmentUI::ApplyEmployment(string applierID, vector<Recruitment>& recruitment, vector<Apply>& apply) {
+    // 지원할 회사 번호(사업자 번호) 입력
+    int companyNumber;
+    fscanf(inFp, "%d", &companyNumber);
+
+    fprintf(outFp, "4.2. 채용 지원\n");
+
+    tuple<string, int, string> temp = searchRecruitment.addNewApply(companyNumber, applierID, recruitment, apply);
+    if ((get<0>(temp) == "0") && (get<1>(temp) == 0) && (get<2>(temp) == "0"))
+    {
+        return;
+    }
+    fprintf(outFp, "% %d %s\n", get<0>(temp), get<1>(temp), get<2>(temp));
+}

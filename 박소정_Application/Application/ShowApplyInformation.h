@@ -1,5 +1,6 @@
 #include <iostream>
 #include <vector>
+#include <map>
 #include "Apply.h"
 #include "Recruitment.h"
 using namespace std;
@@ -15,5 +16,5 @@ public:
 	ShowApplyInformation(vector<Apply>& apply, vector<Recruitment>& recruitment);
 	void cancelApply(int companyNumber, string applierID);	// 지원 취소
 	void showApply();
-	void showWorkApply(Member member, string ID);			// 지원 정보 통계
+	map<string, int> showWorkApply(Member member, string ID);			// 지원 정보 통계
 };

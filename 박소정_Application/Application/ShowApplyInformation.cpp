@@ -26,22 +26,32 @@ void ShowApplyInformation::cancelApply(int companyNumber, string applierID) {
 /*
 * 지원 정보 통계 정보를 가져오는 함수
 */
-void ShowApplyInformation::showWorkApply(Member member, string ID) {
+map<string, int> ShowApplyInformation::showWorkApply(Member member, string ID) {
+	map<string, int> countByWork;	// 업무별 지원 횟수를 저장하는 map 변수
+	map<string, int>::iterator it;	// map을 순회하기 위한 iterator 변수
 
 	// 회사 회원인 경우
 	if (typeid(member) == typeid(CompanyMember)) {
-		for (int i = 0; i < sizeof(recruitments); i++) {
+
+		for (int i = 0; i < sizeof(applies); i++) {
 			// 현재까지 등록한 모든 채용 정보에 대해 업무별 지원자 수 출력
-			if (recruitments[i].getWriterID().compare(ID)) {
-				cout << recruitments[i].getWork() << " " << recruitments[i].getApplyCount() << endl;
+			if (applies[i].getWriterID().compare(ID)) {
+				it = countByWork.find(applies[i].getWork());
+					// 해당 업무가 map에 없는 경우
+					if (it == countByWork.end()) {
+						countByWork[applies[i].getWork()] = 1;	// map에 추가
+					}
+				// 해당 업무가 map에 있는 경우
+					else {
+						++countByWork[applies[i].getWork()];	// 기존 value 값을 1 증가
+					}
 			}
 		}
 	}
 
 	// 일반 회원인 경우
 	else {
-		map<string, int> countByWork;	// 업무별 지원 횟수를 저장하는 map 변수
-		map<string, int>::iterator it;	// map을 순회하기 위한 iterator 변수
+
 
 		for (int i = 0; i < sizeof(applies); i++) {
 
@@ -61,8 +71,6 @@ void ShowApplyInformation::showWorkApply(Member member, string ID) {
 			}
 		}
 
-		for (it = countByWork.begin(); it != countByWork.end(); it++) {
-			cout << it->first << " " << it->second << endl;
-		}
+		return countByWork;
 	}
 }

@@ -13,12 +13,13 @@ private:
 	int companyNumber;
 	string work;
 	string applierID;
+	string writerID;
 	
 public:
 	string getCompanyName();
 	string getWork();
 	int getCompanyNumber();
 	string getApplierID();
+	string getWriterID();
 	void cancelApply();		// 지원 취소
-	void countWorkApplyByGeneral(string applierID);
 };

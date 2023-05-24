@@ -18,7 +18,9 @@ string Apply::getApplierID() {
 	return applierID;
 }
 
-
+string Apply::getWriterID() {
+	return writerID;
+}
 
 /*
 * 지원 취소 기능

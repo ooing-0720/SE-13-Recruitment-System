@@ -13,12 +13,14 @@ private:
 	int TO;						// 인원 수 (채용 인원수)
 	string deadlineDate;		// 신청 마감일
 	string applierID;			// 채용 신청자 ID
+	string writerID;			// 채용 등록한 회사 회원 ID
 
 public:
 	string getCompanyName();
 	string getWork();
 	int getCompanyNumber();
 	string getApplierID();
+	string getWriterID();
 
 	void setApply(string companyName, int companyNumber, string work, int TO, string deadlineDate, string applier);	// 채용 지원 생성
 	tuple<string, int, string, int, string, string> getApply();
