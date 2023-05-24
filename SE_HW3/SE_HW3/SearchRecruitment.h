@@ -11,7 +11,7 @@ class SearchRecruitment {
 private:
     Apply apply;
 public:
-    static vector<tuple<string, int, string, int, string>> ShowRecruitmentList(string companyName, vector<Recruitment>& recruitment);       // ??? ???? ???
+    static vector<tuple<string, int, string, int, string>> showRecruitmentList(string companyName, vector<Recruitment>& recruitment);       // ??? ???? ???
     tuple<string, int, string> addNewApply(int companyNumber, string applierID, vector<Recruitment>& recruitment, vector<Apply>& apply);    // ??? ????
 };
 

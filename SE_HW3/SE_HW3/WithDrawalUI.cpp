@@ -9,6 +9,8 @@ WithDrawalUI::WithDrawalUI() : withDrawal() {}
 /*
  * È¸¿øÅ»Åð boundary class
  */
+
+// È¸¿ø Å»Åð ¹øÈ£ Å¬¸¯(Ãâ·Â)
 void WithDrawalUI::clickWithdrawal(Member currentMember, vector<Member>& members)
 {
     string result = withDrawal.clickWithdrawal(currentMember, members);

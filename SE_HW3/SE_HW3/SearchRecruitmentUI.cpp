@@ -9,14 +9,14 @@ SearchRecruitmentUI::SearchRecruitmentUI() {
 }
 
 // 4.1. 채용 정보 검색
-void SearchRecruitmentUI::SearchByCompanyName(vector<Recruitment>& recruitment) {
+void SearchRecruitmentUI::searchByCompanyName(vector<Recruitment>& recruitment) {
     // 검색할 회사 정보 입력
     string companyName;
     inFp >> companyName;
 
     outFp << "4.1. 채용 정보 검색" << endl;
     vector<tuple<string, int, string, int, string>> saveRecruitment;
-    saveRecruitment = SearchRecruitment::ShowRecruitmentList(companyName, recruitment);
+    saveRecruitment = SearchRecruitment::showRecruitmentList(companyName, recruitment);
 
     for (int i = 0; i < saveRecruitment.size(); i++)
     {
@@ -26,7 +26,7 @@ void SearchRecruitmentUI::SearchByCompanyName(vector<Recruitment>& recruitment) 
 }
 
 // 4.2. 채용 지원
-void SearchRecruitmentUI::ApplyEmployment(string applierID, vector<Recruitment>& recruitment, vector<Apply>& apply) {
+void SearchRecruitmentUI::applyRecruitment(string applierID, vector<Recruitment>& recruitment, vector<Apply>& apply) {
     // 지원할 회사 번호(사업자 번호) 입력
     int companyNumber;
     inFp >> companyNumber;

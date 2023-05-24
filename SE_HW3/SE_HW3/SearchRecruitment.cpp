@@ -2,7 +2,7 @@
 
 // 4.1
 // 채용 정보를 불러와서 출력하는 함수
-vector<tuple<string, int, string, int, string>> SearchRecruitment::ShowRecruitmentList(string companyName, vector<Recruitment>& recruitment) {
+vector<tuple<string, int, string, int, string>> SearchRecruitment::showRecruitmentList(string companyName, vector<Recruitment>& recruitment) {
 
     vector<tuple<string, int, string, int, string>> saveRecruitment;
 

@@ -121,14 +121,14 @@ void doTask() {
             {
             case 1:		// 4.1 채용 정보 검색
             {
-                searchRecruitmentUI.SearchByCompanyName(recruitment);
+                searchRecruitmentUI.searchByCompanyName(recruitment);
                 break;
             }
             case 2:		// 4.2 채용 지원
             {
                 
 
-                searchRecruitmentUI.ApplyEmployment(currentMember.getID(), recruitment, apply);
+                searchRecruitmentUI.applyRecruitment(currentMember.getID(), recruitment, apply);
                 break;
             }
             case 3:		// 4.3 지원 정보 조회

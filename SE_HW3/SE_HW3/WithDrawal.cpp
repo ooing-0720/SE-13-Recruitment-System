@@ -1,7 +1,9 @@
 #include "WithDrawal.h"
 /*
- * 회원탈퇴 함수
+ * 회원탈퇴 control class
  */
+
+// 회원 탈퇴 처리
 string WithDrawal::clickWithdrawal(Member currentMember, vector<Member>& members) {
     for (int i = 0; i < members.size(); i++) {
         // 지원 목록 중 현재 로그인한 회원이 지원하였으며

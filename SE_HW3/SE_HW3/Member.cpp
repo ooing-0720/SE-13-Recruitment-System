@@ -31,6 +31,7 @@ void Member::saveMember(int i) {
 
 }
 
+// 해당 회원 삭제
 void Member::deleteMember() {
     delete this;
 }

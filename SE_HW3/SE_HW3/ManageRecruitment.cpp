@@ -17,8 +17,7 @@ string ManageRecruitment::addNewRecruitment(vector<Recruitment>& recruitments, c
 }
 
 vector<Recruitment> ManageRecruitment::showRecruitmentDetail(vector<Recruitment>& recruitments, string name) {
-   // if (recruitments.empty()) return false;
-   // else return true;
+
     vector<Recruitment> myRecruitments;
     for (int i = 0; i < recruitments.size(); i++) {
         
